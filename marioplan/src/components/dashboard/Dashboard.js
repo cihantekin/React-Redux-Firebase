@@ -4,10 +4,9 @@ import Notifications from './Notifications'
 import {connect} from 'react-redux'
 
 class Dashboard extends Component {
-
     render(){
-        const {projects} = this.props.projects;
-        console.log(this.props);
+        const {projects} = this.props;
+        console.log(projects)
         return(
             <div className="dashboard container">
                 <div className="row">
